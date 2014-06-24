@@ -1,7 +1,6 @@
 SLIDES=github-rocket-science.markdown
 REVEALOPS=  -V theme=solarized \
-            -V transition=linear \
-            -V minScale=0.1 \
+            -V transition=cube \
             -s
 
 all: presentation

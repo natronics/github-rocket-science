@@ -77,7 +77,131 @@ Github
         exit 1
 
 
-Initial Reaction
+Initial Reactions
 --------------------------------------------------------------------------------
 
--------------------------------------------------------------------------------- 
+
+READMES
+--------------------------------------------------------------------------------
+
+
+Read The Docs
+--------------------------------------------------------------------------------
+
+
+Capstones
+--------------------------------------------------------------------------------
+
+ - Introduce students to large git based development
+ - They make their own organization
+ - PSAS forks the project
+
+
+CAD
+--------------------------------------------------------------------------------
+
+ - Solidworks
+ - Eagle
+
+
+Test Data
+--------------------------------------------------------------------------------
+
+ - 100's of MB
+ - It shouldn't really ever change
+ - Pare down to minimum needed for analysis
+ - Don't check in artifacts
+ - Notes in README about what code and hardware was tested
+
+
+Rise of the Issue Tracker
+--------------------------------------------------------------------------------
+
+ - Multiple repos, multiple issue lists
+ - Can't crosslink (automatically)
+ - _Everyone is confused all the time about where issues live_
+
+
+--------------------------------------------------------------------------------
+
+![](images/issues.png)
+
+
+Full Stack
+--------------------------------------------------------------------------------
+
+ - [github.com/psas](https://github.com/psas)
+ - Top Level Readmes
+ - Software
+    - RTD
+    - travis-ci
+    - Make files: immediate satisfaction
+ - EE CAD
+    - Better visibility
+    - Missing tools
+ - Solidworks
+    - Missing everything
+
+
+Launches!
+--------------------------------------------------------------------------------
+
+ - [github.com/psas/Launch-11](https://github.com/psas/Launch-11)
+
+
+Secret Weapons
+--------------------------------------------------------------------------------
+
+ - Github ecosystem
+ - Badges!
+ - RTD
+ - gh-pages
+ - Forks
+ - Visibility
+ - Issue tracking
+
+
+Missing Pieces
+--------------------------------------------------------------------------------
+
+ - Top down visibility
+ - Connecting repos
+ - **CAD tools**
+
+
+What People Like
+--------------------------------------------------------------------------------
+
+ - Easy administration
+ - Badges
+ - Fitting in
+
+
+Not So Much
+--------------------------------------------------------------------------------
+
+ - Email alerts on by default
+ - Where is _blank_?
+ - "You don't update the website anymore"
+
+
+Launch!
+--------------------------------------------------------------------------------
+
+**July 20th**
+
+ - L- 25days 22 hours
+
+
+Follow Us
+--------------------------------------------------------------------------------
+
+ - [github.com/psas](https://github.com/psas)
+ - [psas.pdx.edu](http://psas.pdx.edu)
+ - [&#64;pdxaerospace](https://twitter.com/pdxaerospace)
+
+
+Meta
+--------------------------------------------------------------------------------
+
+    $ git clone git@github.com:natronics/github-rocket-science.git

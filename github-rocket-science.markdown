@@ -40,3 +40,7 @@ Is This Real?
 ---------------------------------------------------------
 
 <video class="stretch" data-autoplay src="/videos/launch_hill.webm"></video>
+
+---------------------------------------------------------
+
+<video class="stretch" data-autoplay src="/videos/onboard.webm"></video>

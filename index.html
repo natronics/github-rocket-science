@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Open Source Bridge 2014" />
+  <title>Rocket Science On Github</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="reveal.js/css/reveal.min.css"/>
+    <style type="text/css">code{white-space: pre;}</style>
+    <link rel="stylesheet" href="reveal.js/css/theme/simple.css" id="theme">
+  <link rel="stylesheet" media="print" href="reveal.js/css/print/pdf.css" />
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">Rocket Science On Github</h1>
+    <h2 class="author">Open Source Bridge 2014</h2>
+    <h3 class="date"></h3>
+</section>
+
+<section id="psas" class="slide level2">
+<h1>PSAS</h1>
+<figure>
+<img src="images/PSAS_group.jpg" alt="Aerospace project at PSU. Open to everyone!" /><figcaption>Aerospace project at PSU. Open to everyone!</figcaption>
+</figure>
+</section>
+<section id="why-rockets" class="slide level2">
+<h1>Why Rockets?</h1>
+<ul>
+<li>Labs are safe and predictable.</li>
+<li>Rockets can kill you! And are hard!</li>
+<li>Okay, so let's build rockets.</li>
+<li>Our goal: <strong>Put a 1 kg nanosatellite into orbit.</strong></li>
+</ul>
+</section>
+<section id="plan-of-attack" class="slide level2">
+<h1>Plan Of Attack</h1>
+<ol type="1">
+<li>Build steerable rocket.</li>
+<li>Get lawyers.</li>
+<li>???</li>
+<li>Orbit!</li>
+</ol>
+</section>
+<section class="slide level2">
+
+<p>An aside about rocket physics...</p>
+</section>
+<section class="slide level2">
+
+<figure>
+<img src="images/launch.jpg" />
+</figure>
+</section>
+<section class="slide level2">
+
+<video class="stretch" data-autoplay src="videos/launch_hill.webm"></video>
+
+
+</section>
+<section class="slide level2">
+
+<video class="stretch" data-autoplay src="videos/onboard.webm"></video>
+
+
+</section>
+<section id="in-the-beginning" class="slide level2">
+<h1>In The Beginning</h1>
+<figure>
+<img src="images/gitweb.png" alt="git web" /><figcaption>git web</figcaption>
+</figure>
+</section>
+<section class="slide level2">
+
+<figure>
+<img src="images/gitweb-detail.png" />
+</figure>
+</section>
+<section class="slide level2">
+
+<figure>
+<img src="images/gitweb-tree.png" />
+</figure>
+</section>
+<section id="github" class="slide level2">
+<h1>Github</h1>
+<ul>
+<li>Use organization where everyone has commit access</li>
+<li>Name squatting is not allowed</li>
+<li>Triggered spam alerts</li>
+<li>Customer support was fast and helpful</li>
+<li>What to do with archived repos?</li>
+<li><p>Turn off access with message in <code>pre-receive</code></p>
+<pre><code>#!/bin/sh
+echo &quot;see: https://github.com/psas/$(basename `pwd` .git)&quot;
+exit 1</code></pre></li>
+</ul>
+</section>
+<section id="initial-reactions" class="slide level2">
+<h1>Initial Reactions</h1>
+</section>
+<section id="readmes" class="slide level2">
+<h1>READMES</h1>
+</section>
+<section id="read-the-docs" class="slide level2">
+<h1>Read The Docs</h1>
+</section>
+<section id="capstones" class="slide level2">
+<h1>Capstones</h1>
+<ul>
+<li>Introduce students to large git based development</li>
+<li>They make their own organization</li>
+<li>PSAS forks the project</li>
+</ul>
+</section>
+<section id="cad" class="slide level2">
+<h1>CAD</h1>
+<ul>
+<li>Solidworks</li>
+<li>Eagle</li>
+</ul>
+</section>
+<section id="test-data" class="slide level2">
+<h1>Test Data</h1>
+<ul>
+<li>100's of MB</li>
+<li>It shouldn't really ever change</li>
+<li>Pare down to minimum needed for analysis</li>
+<li>Don't check in artifacts</li>
+<li>Notes in README about what code and hardware was tested</li>
+</ul>
+</section>
+<section id="rise-of-the-issue-tracker" class="slide level2">
+<h1>Rise of the Issue Tracker</h1>
+<ul>
+<li>Multiple repos, multiple issue lists</li>
+<li>Can't crosslink (automatically)</li>
+<li><em>Everyone is confused all the time about where issues live</em></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<figure>
+<img src="images/issues.png" />
+</figure>
+</section>
+<section id="full-stack" class="slide level2">
+<h1>Full Stack</h1>
+<ul>
+<li><a href="https://github.com/psas">github.com/psas</a></li>
+<li>Top Level Readmes</li>
+<li>Software
+<ul>
+<li>RTD</li>
+<li>travis-ci</li>
+<li>Make files: immediate satisfaction</li>
+</ul></li>
+<li>EE CAD
+<ul>
+<li>Better visibility</li>
+<li>Missing tools</li>
+</ul></li>
+<li>Solidworks
+<ul>
+<li>Missing everything</li>
+</ul></li>
+</ul>
+</section>
+<section id="launches" class="slide level2">
+<h1>Launches!</h1>
+<ul>
+<li><a href="https://github.com/psas/Launch-11">github.com/psas/Launch-11</a></li>
+</ul>
+</section>
+<section id="secret-weapons" class="slide level2">
+<h1>Secret Weapons</h1>
+<ul>
+<li>Github ecosystem</li>
+<li>Badges!</li>
+<li>RTD</li>
+<li>gh-pages</li>
+<li>Forks</li>
+<li>Visibility</li>
+<li>Issue tracking</li>
+</ul>
+</section>
+<section id="missing-pieces" class="slide level2">
+<h1>Missing Pieces</h1>
+<ul>
+<li>Top down visibility</li>
+<li>Connecting repos</li>
+<li><strong>CAD tools</strong></li>
+</ul>
+</section>
+<section id="what-people-like" class="slide level2">
+<h1>What People Like</h1>
+<ul>
+<li>Easy administration</li>
+<li>Badges</li>
+<li>Fitting in</li>
+</ul>
+</section>
+<section id="not-so-much" class="slide level2">
+<h1>Not So Much</h1>
+<ul>
+<li>Email alerts on by default</li>
+<li>Where is <em>blank</em>?</li>
+<li>&quot;You don't update the website anymore&quot;</li>
+</ul>
+</section>
+<section id="launch" class="slide level2">
+<h1>Launch!</h1>
+<p><strong>July 20th</strong></p>
+<ul>
+<li>L- 25days 22 hours</li>
+</ul>
+</section>
+<section id="follow-us" class="slide level2">
+<h1>Follow Us</h1>
+<ul>
+<li><a href="https://github.com/psas">github.com/psas</a></li>
+<li><a href="http://psas.pdx.edu">psas.pdx.edu</a></li>
+<li><a href="https://twitter.com/pdxaerospace">@pdxaerospace</a></li>
+</ul>
+</section>
+<section id="meta" class="slide level2">
+<h1>Meta</h1>
+<pre><code>$ git clone git@github.com:natronics/github-rocket-science.git</code></pre>
+</section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.min.js"></script>
+
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        theme: 'solarized', // available themes are in /css/theme
+        transition: 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+//          { src: 'reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
+//          { src: 'reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+]});
+    </script>
+  </body>
+</html>

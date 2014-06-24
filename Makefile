@@ -8,5 +8,8 @@ all: presentation
 presentation:
 	pandoc -t revealjs $(REVEALOPS) $(SLIDES) -o presentation.html
 
+pdf:
+	pandoc -t beamer $(SLIDES) -o github-rocket-science.pdf
+
 clean:
 	rm -f presentation.html

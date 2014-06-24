@@ -5,7 +5,7 @@
 PSAS
 --------------------------------------------------------------------------------
 
-![Aerospace project at PSU. Open to everyone!](/images/PSAS_group.jpg)
+![Aerospace project at PSU. Open to everyone!](images/PSAS_group.jpg)
 
 
 Why Rockets?
@@ -33,17 +33,17 @@ An aside about rocket physics...
 
 --------------------------------------------------------------------------------
 
-![](/images/launch.jpg)
+![](images/launch.jpg)
 
 
 --------------------------------------------------------------------------------
 
-<video class="stretch" data-autoplay src="/videos/launch_hill.webm"></video>
+<video class="stretch" data-autoplay src="videos/launch_hill.webm"></video>
 
 
 --------------------------------------------------------------------------------
 
-<video class="stretch" data-autoplay src="/videos/onboard.webm"></video>
+<video class="stretch" data-autoplay src="videos/onboard.webm"></video>
 
 
 In The Beginning
